@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background:rgb(230,233,235);
+    height:200vh;
+    
+}
+.container .first{
+    background:rgb(0,168,132);
+    height:200px;
+    color:white;
+    font-size:10px;
+    display:flex;
+    padding: 30px 160px;
+    line-height:50px;
+    position: absolute;
+    top:0;
+    right: 0;
+    left:0;
+}
+.container .first .logo{
+    height:50px;
+    padding-right:20px;
+}
+.container .main-section{
+    background:white;
+    height:500px;
+    width:800px;
+    margin:0px 283px;
+    padding-left:20px;
+    position: relative;
+    top:100px;
+    display:flex;
+    box-shadow: -1px -5px 20px 8px rgba(0,0,0,0.34);    
+}
+.container .main-section .steps{
+    width:65%;
+    height:500px;
+    padding-top:50px;
+}
+.steps p{
+    font-size:25px;
+    padding-bottom:50px;
+}
+.steps ul li{
+    list-style:decimal;
+    padding-top:20px;
+    margin-left:20px;
+    font-size:20px;
+}
+.steps a{
+    text-decoration:none;
+}
+.container .main-section .barcode{
+    width:40%;
+    height:500px;
+    text-align:center;
+    padding-top:50px;
+}
+
+/* demo section starts */
+.demo{
+    background:white;
+    height:500px;
+    width:800px;
+    margin-left:283px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    box-shadow: 2px 23px 25px 14px rgba(0,0,0,0.34);
+    position:absolute;
+    top:600px;
+}
+/*
+.demo img{
+    width:500px;
+    height:250px;
+    
+}*/
